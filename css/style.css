@@ -1,0 +1,9 @@
+body{
+    height: 2000px;
+    background-image: url(../Assets/Minimal\ black\ white\ ink\ splash\ iphone\ phone\ wallpaper\ background\ lock\ screen.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+img{
+    clip-path: circle();
+}
