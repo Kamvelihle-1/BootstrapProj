@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=DynaPuff&family=Noto+Serif&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap');
 
 body{
-    /* height: 2000px; */
+   
     background-image: url(../Assets/Minimal\ black\ white\ ink\ splash\ iphone\ phone\ wallpaper\ background\ lock\ screen.jpg);
     background-repeat: inherit;
     background-size: 100%;
-    width: inherit;
-   
-    /* size: inherit; */
+    width: inherit; 
 }
+/* All images*/
 .navbar img,footer img,.landing img,.about img{
     clip-path: circle();
 }
 .main{
+  
     min-height: 1503px;
     margin-bottom: 2rem;
     
@@ -24,6 +24,7 @@ p,label{
     font-family: 'PT Serif', serif;
 }
 .landing,.about,.contact,.projects,.testimonials,.education,.skills{
+    
     margin-top: 2rem;
     width: 1114,4;
     height: 600px;
@@ -31,28 +32,14 @@ p,label{
     background-image:linear-gradient(45deg, #9ea09c,#e6e6e6) ;
     border-radius: 20px;
 }
-.home{
-    /* margin-top: 5rem ; */
-    padding: 9rem 2rem;
-}
-.about{
-    /* margin-top: 4rem ;  */
-    padding: 9rem 2rem;
-}
-/* #navbarNavDropdown {
-    margin-left: 30rem;
 
-} */
-/* .contact h1{
-    margin-left: 30rem;
-   
-} */
+
+
+/* Navigation */
 .navbar{
     background-image:linear-gradient(45deg, #9ea09c,#e6e6e6) ; 
 }
-/* .card{
-    background-image:linear-gradient(45deg, #9ea09c,#e6e6e6) ;
-} */
+
 
  .navbar-nav .nav-item:hover{
     background-image:linear-gradient(45deg, #fbfdfa,#c86b6b) ;
@@ -60,19 +47,32 @@ p,label{
    transform: translateY(-0.5rem);
    transition: top 0.5s, opacity 0.5s ;
 }
-.footer .list-inline-item :hover{
+/* Footer */
+.footer .list-inline-item:hover{
     transform: translateY(0.5rem);
     transition: top 0.5s, opacity 0.5s ;
     
 }
 
-
+/* Landing */
 .home img{
     transform: rotateY(180deg);
 }
-/* .mainC{
-    height: 900px;
-} */
+.home{
+
+    padding: 9rem 2rem;
+}
+.landing{
+    background-image: url(../Assets/pexels-johannes-plenio-1103970.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/* About */
+.about{
+    
+    padding: 9rem 2rem;
+}
+/* Contact */
 .contact{
     background-image:linear-gradient(45deg, #838680,#e6e6e6) ;
     padding: 0 2rem;
@@ -103,6 +103,7 @@ form button{
     cursor: pointer;
     background-image:linear-gradient(45deg, #fbfdfa,#c86b6b) ;
 }
+/* Projects */
  .carousel-item {
    height: 496px;
    
@@ -120,16 +121,18 @@ form button{
     padding: 2rem 2rem 3rem;
     font-size: 1.5rem;
 }
+/* Skills */
 .skills{
     margin-bottom: 2rem;
 }
+/* Testimonials */
 .testimonials img{
    height: 490px;
 }
 .about,.skills,.education,.landing{
     height: fit-content;
 }
-h1,h5{
+h1{
     background-image:linear-gradient(45deg, #fbfdfa,#c86b6b) ;
     border-radius: 5px; 
 }
